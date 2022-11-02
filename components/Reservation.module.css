@@ -1,0 +1,77 @@
+.reservationForm{
+     width: 500px;
+     height: 630px;
+     /* border: 1px solid white; */
+     background-color: #DCE8E8  ;
+     border-radius: 10px;
+     /* opacity:0.8; */
+     padding-top: 20px;
+
+}
+
+.reservationForm form label{
+    margin: 20px;
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+.reservationForm form input{
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(172, 169, 169); 
+    font-size: 20px;
+}
+.reservationForm form button{
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.reservationForm form textarea{
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(172, 169, 169); 
+
+
+}
+.reservationForm form p{
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.res_bgImg{
+    position: absolute;
+    /* top: 0px; */
+    bottom: -10rem;
+    left: 0px;
+    max-width: 30%;
+    transform: scaleX(-1);
+    z-index: -1;
+}
+
+.form{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+.selectDate{
+    padding:"20px 20px 20px 20px";
+    text-align: center;
+    /* width: auto; */
+    /* display: inline; */
+    /* margin: auto; */
+    /* display: flex; */
+
+}

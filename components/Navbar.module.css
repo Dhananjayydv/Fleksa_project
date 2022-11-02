@@ -1,0 +1,29 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    /* background-color: rgb(223, 215, 215); */
+    background-color: black;
+    margin: 0px;
+    align-items: center;
+  }
+  .navItems{
+    display: flex;
+  }
+  .navItems li{
+    list-style: none;
+    padding-right: 50px;
+    font-size: 17px;
+    /* color: black; */
+    color:white;
+    font-weight: bold;
+  }
+  /* .navItems li a:active{
+    color:yellow;
+  } */
+  .changeColor{
+    /* color:yellow; */
+    border: 5px solid yellow;
+    padding: 5px 10px;
+  }

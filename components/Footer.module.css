@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+  .footerAbout{
+    padding-left:40px ;
+  }

@@ -1,8 +1,8 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
 }
 
-.main {
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -126,4 +126,216 @@
   .logo img {
     filter: invert(1);
   }
+} */
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: white;
+  margin: 0px;
+  align-items: center;
+}
+.navItems{
+  display: flex;
+}
+.navItems li{
+  list-style: none;
+  padding-right: 50px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+.carousel{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../public/titleicon.jpg");
+  /* background-image: url("../public/titleicon.jpg") ; */
+  height: 80vh;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  /* opacity: 0.6; */
+  /* filter: brightness(60%); */
+  
+}
+.carouselText{
+  padding: 30px;
+  opacity: 1;
+}
+.carouselText h1{
+  font-size: 70px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+.carouselText h3{
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.carouselText button{
+  padding: 15px 25px;
+  font-size: 25px;
+  margin-right: 20px;
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.intro{
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  /* height: ; */
+}
+.intro .introText{
+  flex: 1;
+  color: black;
+  padding: 60px 50px;
+}
+.intro .introText h2{
+  font-size: 35px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.intro .introText p{
+  font-size: 25px;
+  margin-top: 0px;
+  padding-top: 0px;
+  /* justify-content: center; */
+  /* width: 90%; */
+  text-align: justify;
+
+}
+.intro .introGallery{
+  flex: 1;
+  align-self: center;
+  /* background-image: url('../public/introGalleryImg.png'); */
+}
+.intro .introGallery img{
+  height: 80%;
+  width: 90%;
+  flex-shrink: 0;
+}
+
+.testimonial{
+  background-color: white;
+}
+.testimonial h2{
+     margin: 0px;
+     padding: 50px;
+     text-align: center;
+     color: black;
+     font-size: 40px;
+}
+.testimonialCards{
+  display: flex;
+  color: black;
+  padding:0px 100px;
+  overflow-x: hidden;
+}
+
+.testimonialCards .reviews{
+  height: 400px;
+  width: 400px;
+  background-color: rgb(209, 209, 209);
+  margin-right: 30px;
+  /* flex: 1; */
+  flex-shrink: 0;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.testimonial .reviews img{
+  border-radius: 20px;
+}
+
+.reviews p{
+  text-align: justify;
+}
+
+.appInfo{
+  background-image: url('../public/appLinkBg.png');
+  background-size: cover;
+  height: 90vh;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appInfoMobile{
+  /* height: 200px; */
+  /* width: 200px; */
+  flex: 1;
+}
+.appInfoMobile div{
+   height: 500px; 
+   width: 250px;
+   margin: auto;
+   border: 10px solid rgb(39, 37, 37);
+   border-radius: 20px;
+   text-align: center;
+   background-image: url("../public/mobilebg.png");
+   background-position: center;
+
+}
+.appInfoMobile div h3{
+    font-size: 30px;
+}
+
+.appInfoMobile div button{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+.mobileNavbar{
+  width: 100%;
+  position: relative;
+  top: 15%;
+  border-radius: 10px ;
+}
+
+.linkToApp{
+  flex: 1;
+  width: 200px;
+}
+.linkToApp h3{
+  color: yellow;
+  font-size: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+.linkToApp p{
+  color: black;
+  text-align: justify;
+  padding-right: 30px;
+  font-size: 25px;
+}
+.linkToApp button{
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footerAbout{
+  padding-left:40px ;
 }

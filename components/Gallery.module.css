@@ -1,0 +1,39 @@
+.carousel{
+
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)) , url("https://d1nfw7b4288zmf.cloudfront.net/shop/img/place/prodtestres/6222e5763a3c169a.webp");
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.galleryImage{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.galleryImage img{
+    height: 400px;
+    padding: 20px;
+}
+.galleryImage img:nth-child(1){
+    width: 60%;
+}
+.galleryImage img:nth-child(2){
+    width: 40%;
+}
+.galleryImage img:nth-child(3){
+    width: 40%;
+}
+.galleryImage img:nth-child(4){
+    width: 60%;
+}
+.galleryImage img:nth-child(5){
+    width: 100%;
+}

@@ -1,0 +1,77 @@
+.shopTimeInfoCard{
+    display: none;
+    font-size: 80px;
+}
+
+.deliveryTimeInfoCard{
+    display: none;
+    font-size: 80px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.contactusForm{
+    width:40rem;
+    flex-shrink: 0;
+    /* flex: 3; */
+    /* border: 1px solid white; */
+    padding: 2rem;
+}
+.contactusForm input{
+    width: 43%;
+    padding: 18px;
+    margin-right:1rem;
+    border-radius: 10px;
+    /* border: none; */
+    border: 1px solid rgb(172, 169, 169); 
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contactusForm textarea{
+    width: 43%;
+    padding: 18px;
+    margin-right:1rem;
+    border-radius: 10px;
+    /* border: none; */
+    border: 1px solid rgb(172, 169, 169); 
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contactusForm label{
+    margin-right: 14rem;
+    
+}
+
+.contactusForm button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.contactInfo{
+    width: 20rem;
+    /* flex: 1; */
+    /* border: 1px solid white; */
+    flex-shrink: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contactInfo .shopTime{
+    width: 100%;
+}
+.shopTimeDay{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid white; */
+    justify-content: space-between;
+}
+.companyMapMarker{
+    width: 100%;
+}
