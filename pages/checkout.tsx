@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import styles from "../components/Checkout.module.css"
 import Footer from '../components/Footer'
 import Link from 'next/link'
-function checkout() {
+function Checkout() {
     const [storageflag,setStorageflag]=useState(null);
     let totalCartValue:any = 0;
 
@@ -126,7 +126,7 @@ function checkout() {
                </div>
                <div className="buttonAndCheck" style={{display:"flex",justifyContent:"flex-end",flexDirection:"column",borderRadius:"10px"}}>
                     {/* <div  > */}
-                       <Link href="/orderSuccessful"><button style={{width:"80%",marginLeft:'auto',marginRight:"10px",marginTop:"10px",padding:"10px",backgroundColor:"yellow",color:"black",fontWeight:"bold",fontSize:"25px",borderRadius:"20px",border:"none",cursor:"pointer"}}>ORDER AND PAY</button></Link>
+                       <Link href="/OrderSuccessful"><button style={{width:"80%",marginLeft:'auto',marginRight:"10px",marginTop:"10px",padding:"10px",backgroundColor:"yellow",color:"black",fontWeight:"bold",fontSize:"25px",borderRadius:"20px",border:"none",cursor:"pointer"}}>ORDER AND PAY</button></Link>
 
                     {/* </div> */}
                     <p style={{width:"80%",marginLeft:'auto',textAlign:"center",marginRight:"10px",marginTop:"10px",padding:"10px"}}>By clicking on ORDER AND PAY you agree with the contents of the shopping cart, the data you filled out, our Privacy Policy and Terms of Use</p>
@@ -174,4 +174,4 @@ function checkout() {
   )
 }
 
-export default checkout
+export default Checkout

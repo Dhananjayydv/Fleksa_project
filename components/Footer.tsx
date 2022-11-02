@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "../components/Footer.module.css"
 import Link from 'next/link'
+import Image from 'next/image'
 function Footer() {
   return (
     <footer className={styles.footer}>
@@ -11,7 +12,7 @@ function Footer() {
        <div className={styles.footerAbout}>
            <h3>Online Ordering System</h3>
            <p>Powered By</p>
-           <img src="fleksa-logo.svg" alt="" />
+           <Image width={100} height={30} src="/fleksa-logo.svg" alt="" />
        </div>
 
 

@@ -15,7 +15,7 @@ function Navbar() {
         </div>
         <div className={styles.navItems}>
           <li><Link href="/"><a onClick={(e)=>changeTheColor(e)}> Home</a></Link></li>
-          <li><Link href="/menu"><a onClick={(e)=>changeTheColor(e)}>Menu</a></Link></li>
+          <li><Link href="/Menu"><a onClick={(e)=>changeTheColor(e)}>Menu</a></Link></li>
           <li><Link href="/reservation"><a onClick={(e)=>changeTheColor(e)}>Reservation</a></Link></li>
           <li><Link href="/gallery"><a onClick={(e)=>changeTheColor(e)}>Gallery</a></Link></li>
           <li><Link href="/contact"><a onClick={(e)=>changeTheColor(e)}>Contact</a></Link></li>

@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import Navbar from '../components/Navbar'
-function orderSuccessful() {
+function OrderSuccessful() {
     // const [storageflag,setStorageflag]=useState(null);
     // let totalCartValue:any = 0;
     // let a:any=[];
@@ -28,4 +28,4 @@ function orderSuccessful() {
   )
 }
 
-export default orderSuccessful
+export default OrderSuccessful

@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 
 
-function menu() {
+function Menu() {
  
 const itemDOM = useRef<HTMLInputElement>(null);
 const productRef = useRef<HTMLInputElement>(null);
@@ -410,7 +410,7 @@ const categoryHeadingRef = useRef<HTMLInputElement>(null);
                    <h4>Total</h4>
                    <h4>{totalCartValue.toFixed(2)}€</h4>
                    </div>
-                   <Link href="/checkout"><a><button  style={{width:"100%",padding:"10px",backgroundColor:"black",color:"white",cursor:"pointer"}}>Checkout</button></a></Link>
+                   <Link href="/Checkout"><a><button  style={{width:"100%",padding:"10px",backgroundColor:"black",color:"white",cursor:"pointer"}}>Checkout</button></a></Link>
                   </div>):(
                   <div>
                 <div className={styles.cartBgImg}>
@@ -436,4 +436,4 @@ const categoryHeadingRef = useRef<HTMLInputElement>(null);
 // export default Homepage
 
 
-export default menu
+export default Menu
